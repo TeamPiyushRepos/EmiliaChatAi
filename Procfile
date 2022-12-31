@@ -1,1 +1,1 @@
-Emilia: python3 main.p
+Emilia: python3 main.py
