@@ -1,5 +1,5 @@
 #Never remove This Line From Here. @PiyushMalviyaOfficially | @JoinIndianNavy_007
-#Github :- TeamPiyushRepos | EmiliaChatAi
+#Github :- TeamPiyushRepos | JessicaChatAi
 from pyrogram import Client, filters
 from pyrogram.types import *
 from pymongo import MongoClient
@@ -73,7 +73,7 @@ PHOTO = [
 ]
 
 EMOJIOS = [ 
-      "💣",
+      "👯‍♀",
       "💥",
       "🪄",
       "🧨",
@@ -99,7 +99,7 @@ STICKER = [
 ]
 START = f"""
 **๏ ʜᴇʏ, ɪ ᴀᴍ [{BOT_NAME}]({START_IMG1})**
-**➻ ʜᴏɪ ᴍᴇʀᴀ ɴᴀᴀᴍ ʜᴀɪ ᴇᴍɪʟɪᴀ ᴀᴜʀ ᴍᴇɪɴ ᴇᴋ ᴄʜᴀᴛʙᴏᴛ ʜᴜ**
+**➻ ʜᴏɪ ᴍᴇʀᴀ ɴᴀᴀᴍ ʜᴀɪ ᴊᴇꜱꜱɪᴄᴀ, ɪ ᴀᴍ ᴀ ᴄʜᴀᴛʙᴏᴛ**
 **➻ ᴀᴀᴘꜱᴇ ᴍɪʟᴋᴀʀ ᴀᴄʜᴀ ʟɢᴀᴀ , ᴋʏᴀ ᴀᴀᴘ ᴍᴜᴊʜꜱᴇ ʙᴀᴀᴛ ᴋʀᴏɢᴇ?**
 **➻ ᴀɴ ᴀɪ ʙᴀsᴇᴅ ᴄʜᴀᴛʙᴏᴛ**
 **──────────────**
@@ -202,7 +202,7 @@ ABOUT_BTN = [
            InlineKeyboardButton(text=" ʙᴀᴄᴋ ", callback_data="BACK"),
       ],
 ]
-SOURCE_READ = f"**ʜᴇʏ, ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴏғ [{BOT_NAME}](https://t.me/{BOT_USERNAME}) ɪs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ.**\n**ᴘʟᴇᴀsᴇ ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ & ɢɪᴠᴇ ᴛʜᴇ sᴛᴀʀ ✯**\n**──────────────────**\n**ʜᴇʀᴇ ɪs ᴛʜᴇ [sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ](https://github.com/TeamPiyushRepos/EmiliaChatAi)**\n**──────────────────**\n**ɪғ ʏᴏᴜ ғᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ᴀᴛ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/{SUPPORT_GRP}).\n<b>||©️ @{OWNER_USERNAME}||</b>"
+SOURCE_READ = f"**ʜᴇʏ, ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴏғ [{BOT_NAME}](https://t.me/{BOT_USERNAME}) ɪs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ.**\n**ᴘʟᴇᴀsᴇ ғᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ & ɢɪᴠᴇ ᴛʜᴇ sᴛᴀʀ ✯**\n**──────────────────**\n**ʜᴇʀᴇ ɪs ᴛʜᴇ [sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ](https://github.com/TeamPiyushRepos/JessicaChatAi)**\n**──────────────────**\n**ɪғ ʏᴏᴜ ғᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛʜᴇɴ ᴄᴏɴᴛᴀᴄᴛ ᴀᴛ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/{SUPPORT_GRP}).\n<b>||©️ @{OWNER_USERNAME}||</b>"
 
 ABOUT_READ = f"""
 **➻ [{BOT_NAME}](https://t.me/{BOT_USERNAME}) ɪs ᴀɴ ᴀɪ ʙᴀsᴇᴅ ᴄʜᴀᴛ-ʙᴏᴛ.**
@@ -351,7 +351,7 @@ async def ping(client, message: Message):
         ms = (end-start).microseconds / 1000
         await message.reply_photo(
                              photo=random.choice(PHOTO),
-                             caption=f"нey вαву!!\n**[{BOT_NAME}](t.me/{BOT_USERNAME})** ιѕ alιve 🥀 αnd worĸιng ғιne wιтн a pιng oғ\n➥ `{ms}` ms\n\n<b>||мαdє ωιтн ❣️ ву [ᴘɪʏᴜꜱʜ](https://t.me/PiyushMalviyaOfficially)||</b>",
+                             caption=f"нey вαву!!\n**[{BOT_NAME}](t.me/{BOT_USERNAME})** ιѕ alιve 🥀 αnd worĸιng ғιne wιтн a pιng oғ\n➥ `{ms}` ms\n\n<b>||мαdє ωιтн ❣️ ву [ᴘɪʏᴜꜱʜ](https://t.me/JoinIndianNavy_007)||</b>",
                              reply_markup=InlineKeyboardMarkup(PNG_BTN),
        )
 
@@ -594,5 +594,5 @@ async def emiliaprivatesticker(client: Client, message: Message):
            if not Yo == "text":
                await message.reply_sticker(f"{hey}")
 
-print(f"{BOT_NAME} ɪs ᴀʟɪᴠᴇ! ᴀʙʙ ɴɪᴋʟᴏ ᴊᴀʟᴅɪ ꜱᴇ ᴀɴᴅ ɢᴏ ᴛᴏ @PiyushXManagementSupport!!")      
+print(f"{BOT_NAME} ɪs ᴀʟɪᴠᴇ! ᴀʙʙ ɴɪᴋʟᴏ ᴊᴀʟᴅɪ ꜱᴇ ᴀɴᴅ ɢᴏ ᴛᴏ @Cherished_Community !!")      
 bot.run()
